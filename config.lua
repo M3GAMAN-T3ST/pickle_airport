@@ -116,6 +116,38 @@ Config.Missions = {
                 {name = "money", min = 300, max = 500}
             }
         },
+        {
+            Type = "Delivery",
+            PackagePickup = vector3(-557.82, 6499.77, 5.93),
+            PackageDropoff = vector3(-940.9973, -2954.2285, 13.9450),
+            Rewards = {
+                {name = "money", min = 300, max = 500}
+            }
+        },
+        {
+            Type = "Delivery",
+            PackagePickup = vector3(-940.9973, -2954.2285, 13.9450),
+            PackageDropoff = vector3(-557.82, 6499.77, 5.93),
+            Rewards = {
+                {name = "money", min = 300, max = 500}
+            }
+        },
+        {
+            Type = "Delivery",
+            PackagePickup = vector3(1720.2944, 3306.6436, 41.2235),
+            PackageDropoff = vector3(-557.82, 6499.77, 5.93),
+            Rewards = {
+                {name = "money", min = 300, max = 500}
+            }
+        },
+        {
+            Type = "Delivery",
+            PackagePickup = vector3(1720.2944, 3306.6436, 41.2235),
+            PackageDropoff = vector3(-557.82, 6499.77, 5.93),
+            Rewards = {
+                {name = "money", min = 300, max = 500}
+            }
+        },
     }
 }
 
@@ -175,6 +207,22 @@ Config.Airports = {
             Boarding = vector3(2159.0381, 4782.0737, 41.9610),
             Flight = vector3(2140.8184, 4815.4282, 41.2161),
             Hangar = vector4(2149.6863, 4808.7354, 41.1853, 107.2027),
+        },
+    },
+    {
+        AirportTitle = "Paleto Airfield",
+        Blips = {
+            Boarding = {
+                Label = "Airport",
+                ID = 423,
+                Color = 5,
+                Scale = 0.75
+            }
+        },
+        Locations = {
+            Boarding = vector3(-562.61, 6521.34, 5.93),
+            Flight = vector3(-512.73, 6510.11, 5.55),
+            Hangar = vector4(-553.42, 6515.91, 5.93, 309.76),
         },
     },
 }
